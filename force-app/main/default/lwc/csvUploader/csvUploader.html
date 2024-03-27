@@ -1,0 +1,16 @@
+<!-- csvUploader.html -->
+<template>
+    <lightning-card title="Paso 2: Subir Archivo CSV" icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            <!-- Agregar el componente de subida de archivos -->
+            <lightning-file-upload
+                label="Subir archivo CSV"
+                name="fileUploader"
+                accept=".csv"
+                record-id={recordId}
+                onuploadfinished={handleUploadFinished}
+                multiple="false">
+            </lightning-file-upload>
+        </div>
+    </lightning-card>
+</template>

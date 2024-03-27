@@ -1,0 +1,38 @@
+/* objectSelection.css */
+.slds-card {
+    border-radius: 0.5rem; /* Ajusta el radio de borde de las tarjetas */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}
+
+.slds-card__header {
+    background-color: #f3f3f3; /* Cambia el color de fondo del encabezado */
+    border-bottom: 1px solid #d8d8d8; /* Añade un borde inferior al encabezado */
+}
+
+.slds-card__body {
+    padding: 1rem; /* Añade espacio alrededor del contenido de la tarjeta */
+}
+
+/* Ajustes para el componente de subida de archivos */
+.slds-file-selector__dropzone {
+    border: 2px dashed #cccccc; /* Cambia el estilo del área de arrastrar y soltar */
+    border-radius: 0.5rem; /* Ajusta el radio de borde del área de arrastrar y soltar */
+}
+
+.slds-file-selector__dropzone:hover {
+    background-color: #f9f9f9; /* Cambia el color de fondo cuando se pasa el ratón por encima del área de arrastrar y soltar */
+}
+.slds-listbox__item:hover {
+    background-color: #f2f2f2; /* Cambia el color de fondo cuando se pasa el cursor sobre el elemento */
+}
+.slds-listbox__item.selected {
+    background-color: #f2f2f2; /* Cambia el color de fondo del elemento seleccionado */
+}
+.button-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1;
+    
+}
+
